@@ -13,7 +13,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart}) => {
       const bodyPartsData = await fetchData(
         "https://exercisedb.p.rapidapi.com/exercises/bodyPartList",
         exerciseOptions
-      );
+      ); //it will load the body parts once the page loads
 
       setBodyParts(["all", ...bodyPartsData]);
     };
@@ -85,8 +85,8 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart}) => {
         </Button>
       </Box>
       <Box sx={{ position: "relative", width: "100%", p: "20px" }}>
-        <HorizontalScrollbar data={bodyParts} 
-        bodyPart={bodyPart} setBodyPart = {setBodyParts}/>
+        <HorizontalScrollbar data={bodyParts}  //data prop
+        bodyPart={bodyPart} setBodyPart = {setBodyPart}/>
       </Box>
     </Stack>
   );

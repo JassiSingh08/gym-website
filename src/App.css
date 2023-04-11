@@ -85,11 +85,13 @@ body {
   .bodyPart-card {
     transform: scale(1, 1);
     transition: 0.3s all ease-in-out;
+    /* border: 1px solid #000; */
   }
   
   .exercise-card:hover,
   .bodyPart-card:hover {
     transform: scale(1.1, 1.1);
+    /* border: none; */
   }
   
   .search-btn:hover {
