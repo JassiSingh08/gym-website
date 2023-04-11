@@ -6,4 +6,4 @@ const BodyPart = () => {
   )
 }
 
-export default BodyPart
+export default BodyPart;
