@@ -13,10 +13,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   // to show only 9 cards per page
   const indexOfLastExercise = currentPage * exercisePerPage;
   const indexOfFirstExercise = indexOfLastExercise - exercisePerPage;
-  const currentExercises = exercises.slice(
-    indexOfFirstExercise,
-    indexOfLastExercise
-  );
+  const currentExercises = exercises.slice(indexOfFirstExercise, indexOfLastExercise);
 
   const Paginate = (e, value) => {
     setCurrentPage(value);
