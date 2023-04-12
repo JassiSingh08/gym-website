@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap');
+
 body {
     font-family: 'Josefin Sans';
     background-color: #FFFAFB;
+    font-family: 'Poppins', sans-serif;
   }
   
   * {
@@ -112,6 +115,14 @@ body {
     height: 381px;
     text-decoration: none;
   }
+
+  .style{
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.205) 0px 5px 15px;
+  }
+
+  /* RESPONSIVE */
   
   @media screen and (max-width:1200px) {
     .detail-image {

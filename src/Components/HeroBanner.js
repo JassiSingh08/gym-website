@@ -25,7 +25,7 @@ const HeroBanner = () => {
       >
         Sweat, Smile <br /> And Repeat
       </Typography>
-      <Typography fontSize="22px" lineHeight="35px" mb={4}>
+      <Typography className="style" fontSize="22px" lineHeight="35px" mb={4}>
         Check out the most effective Exercises
       </Typography>
       <Button variant="contained" color="error" href="#exercises" sx={{BackgroundColor:'#ff2625', padding:"10px"}}>

@@ -44,9 +44,9 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   }, [bodyPart]);
 
   return (
-    <Box id="exercises" sx={{ mt: { lg: "110px" } }} mt="50px" p="20px">
-      <Typography variant="h3" mb="46px">
-        Showing Results
+    <Box id="exercises" sx={{ mt: { lg: "95px" } }} mt="50px" p="20px">
+      <Typography className="style" variant="h3" mb="56px" textAlign="center">
+        Selected Results Below:
       </Typography>
       <Stack
         direction="row"
