@@ -1,6 +1,8 @@
 # Gym Website
 
-This is a gym website project developed using ReactJS and two APIs to provide users with an intuitive interface to search for and replicate exercises using GIFs. It also allows users to view relevant YouTube videos related to the exercises.
+This is a gym website project developed using ReactJS and API functionality to provide users with an intuitive interface to search for and replicate exercises using GIFs. It also allows users to view relevant YouTube videos related to the exercises.
+
+![image](https://github.com/JassiSingh08/gym-website/assets/125473833/53acafbc-0e70-47ad-af52-848fd9079075)
 
 ## Features
 
@@ -8,13 +10,29 @@ The website offers the following features:
 
 1. Exercise Search: Users can search for exercises using the provided search bar. The search functionality is powered by one of the APIs integrated into the project.
 
+![image](https://github.com/JassiSingh08/gym-website/assets/125473833/e421ee9c-4561-4ded-af51-103f15cb7210)
+
+
 2. Exercise Replication: Users can easily replicate exercises by viewing accompanying GIFs. The GIFs are fetched from another API integrated into the project.
+
+![image](https://github.com/JassiSingh08/gym-website/assets/125473833/15234220-9510-4a20-838e-fdca7c7c2a46)
+
 
 3. YouTube Videos: Relevant YouTube videos related to the searched exercises are displayed on the website, allowing users to access additional instructional content.
 
+![image](https://github.com/JassiSingh08/gym-website/assets/125473833/c3033b77-1324-4b6b-989f-e27f3281bac6)
+![image](https://github.com/JassiSingh08/gym-website/assets/125473833/e88c220f-d280-4a4e-8af9-d01c49f56ed6)
+
+
 4. Target Muscle and Equipment Information: Users can access detailed information about the target muscle group and equipment required for each exercise. This information is displayed along with the exercise details.
 
+![image](https://github.com/JassiSingh08/gym-website/assets/125473833/558dc524-0dba-4c25-832d-26da06857ed4)
+
+
 5. Similar Exercises: A separate page is dedicated to displaying a list of similar exercises that target the same muscle group and require similar equipment.
+
+![image](https://github.com/JassiSingh08/gym-website/assets/125473833/512d62ad-2a6f-4036-9f72-6b906ffdf813)
+
 
 ## Technologies Used
 
