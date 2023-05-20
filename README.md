@@ -2,6 +2,12 @@
 
 This is a gym website project developed using ReactJS and API functionality to provide users with an intuitive interface to search for and replicate exercises using GIFs. It also allows users to view relevant YouTube videos related to the exercises.
 
+<h2>🚀 Demo</h2>
+
+https://www.loom.com/share/1ef6f95976fb41f7a2709b2ecc383d50
+
+<hr>
+
 ![image](https://github.com/JassiSingh08/gym-website/assets/125473833/53acafbc-0e70-47ad-af52-848fd9079075)
 
 ## Features
