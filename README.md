@@ -1,4 +1,4 @@
-# Gym Websit
+# Gym Website
 
 This is a gym website project developed using ReactJS and API functionality to provide users with an intuitive interface to search for and replicate exercises using GIFs. It also allows users to view relevant YouTube videos related to the exercises.
 
